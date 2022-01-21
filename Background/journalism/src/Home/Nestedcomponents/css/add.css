@@ -1,0 +1,25 @@
+.tian{background-color: white;border: 1px solid #cccccc;height: 500px;padding: 30px;}
+.tian p{border-bottom: 1px solid #cccccc;padding-bottom: 10px;}
+.tian b{display: block;border-bottom: 1px solid #cccccc;padding-bottom: 10px;margin-bottom: 30px;}
+.tian span{margin: 30px 20px;}
+.tian input:nth-of-type(1){    
+    width: 30%;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    outline: none;
+}
+.tian input:nth-of-type(2){
+    display: block;
+    background-color: #6BC095;
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px 0;
+    border: none;
+    margin: 20px 50px;
+}
+

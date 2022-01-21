@@ -1,0 +1,71 @@
+#header {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+#header img {
+  width: 200px;
+}
+#header u {
+  margin-left: 10px;
+}
+#nav {
+  margin-top: 20px;
+  background-color: #01204F;
+}
+#nav p {
+  display: flex;
+  justify-content: space-around;
+}
+#nav p a {
+  padding: 10px 46px;
+  color: white;
+}
+#nav p a:hover {
+  background-color: #CC0001;
+}
+section {
+  width: 1400px;
+  margin: auto;
+  margin-top: 20px;
+}
+section h2 {
+  border-bottom: 1px solid #cccccc;
+  font-size: 30px;
+  font-weight: bold;
+  color: #10338E;
+}
+section datalist {
+  display: grid;
+  grid-template-columns: 200px 800px;
+  border-bottom: 3px solid #8E8E8E;
+  padding: 50px 0;
+  font-size: 20px;
+}
+section datalist div:nth-of-type(1) {
+  align-self: center;
+  justify-self: center;
+}
+section datalist div:nth-of-type(1) img {
+  width: 150px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+}
+section datalist h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+section datalist p {
+  background-color: #F8F8FA;
+  padding: 5px 10px;
+}
+section datalist p span:nth-of-type(1) {
+  padding-right: 10px;
+}
+section datalist p span:nth-of-type(2) {
+  padding-left: 10px;
+}
+footer img {
+  width: 100%;
+  margin-top: 20px;
+}
